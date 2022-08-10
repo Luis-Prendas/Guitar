@@ -2,7 +2,7 @@ const $ = (element) => document.querySelector(`.${element}`);
 // Helper, to not write so much xD
 
 const cloneAndPlay = (audioNode) => {
-  var clone = audioNode.cloneNode(true);
+  const clone = audioNode.cloneNode(true);
   clone.play();
 }; // Function that will play the sound of the audio
 
