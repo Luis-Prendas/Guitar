@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.string {
+  background-color: gray;
+  height: 100%;
+}
+
+.E1 {
+  width: 4px;
+}
+
+.B2 {
+  width: 4.5px;
+}
+
+.G3 {
+  width: 5px;
+}
+
+.D4 {
+  width: 5.5px;
+}
+
+.A5 {
+  width: 6px;
+}
+
+.E6 {
+  width: 6.5px;
+}
